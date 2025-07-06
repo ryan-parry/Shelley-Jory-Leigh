@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Presenter | Shelley Jory-Leigh</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f5; /* A light gray background for the page */
+        }
+        /* Custom color classes for Shelley's brand teal */
+        .bg-brand-teal { background-color: #15B6B8; }
+        .hover\:bg-brand-teal-dark:hover { background-color: #119395; }
+        .text-brand-teal { color: #15B6B8; }
+        .hover\:text-brand-teal:hover { color: #15B6B8; }
+        .border-brand-teal { border-color: #15B6B8; }
+
+        .hero-section {
+            height: 60vh;
+            background-image: url('https://placehold.co/1920x1080/2c5282/ffffff?text=Shelley+Presenting');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
+        }
+        .hero-overlay {
+            background-color: rgba(0,0,0,0.5);
+        }
+        .text-shadow-strong { text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header id="main-header" class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-800">Shelley Jory-Leigh</a>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Home</a>
+                <a href="gallery.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Gallery</a>
+                <a href="achievements.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Achievements</a>
+                <a href="charities.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Charities</a>
+                <a href="contact.html" class="bg-brand-teal text-white px-5 py-2 rounded-full font-semibold hover:bg-brand-teal-dark transition-all transform hover:scale-105">Contact Us</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white p-4">
+            <a href="index.html" class="block py-2 text-gray-600 hover:text-brand-teal">Home</a>
+            <a href="gallery.html" class="block py-2 text-gray-600 hover:text-brand-teal">Gallery</a>
+            <a href="achievements.html" class="block py-2 text-gray-600 hover:text-brand-teal">Achievements</a>
+            <a href="charities.html" class="block py-2 text-gray-600 hover:text-brand-teal">Charities</a>
+            <a href="contact.html" class="block mt-2 py-2 text-center text-white bg-brand-teal rounded-full">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section relative flex items-center justify-center text-white">
+            <div class="hero-overlay absolute inset-0"></div>
+            <div class="relative z-10 text-center p-4">
+                <h1 class="text-5xl md:text-7xl font-black uppercase text-shadow-strong">The Presenter</h1>
+                <p class="mt-4 text-xl md:text-2xl font-light text-shadow-strong">Engaging Audiences, On Screen and On Stage.</p>
+            </div>
+        </section>
+
+        <!-- Intro Content Section -->
+        <section class="bg-white py-16 md:py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-5 gap-12 items-center">
+                    <div class="md:col-span-3">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">From Cockpit to Camera</h2>
+                        <div class="text-gray-600 leading-relaxed space-y-4">
+                            <p>
+                                After the serious powerboat racing accident in 2010 which put me on the sidelines for an indefinite time, the media world jumped at the chance to get me back on television and radio – this time as an expert pundit for the sport I love so much. This was perfect for me as I was suffering badly from my injuries and mentally could not race for the foreseeable future; I could now support my sport on another dimension.
+                            </p>
+                            <p>
+                                My natural ability to talk to the press whenever needed has led to great jobs as a television presenter. I enjoy presenting for Sky Sports, CBS America and love my own BBC Radio Show, the H2O Show, which I co-host with Sir Robin Knox Johnston. In 2017, I took on a new venture where I take my commentating skills to Live Streaming social media to promote the National UK Thundercat Racing Series and many other racing series across the world.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:col-span-2">
+                        <img src="https://placehold.co/600x700/555555/FFFFFF?text=Shelley+with+Microphone" alt="Shelley Jory-Leigh Presenting" class="rounded-lg shadow-xl w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speaker Section -->
+        <section class="bg-gray-50 py-16 md:py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Speaker & Event Host</h2>
+                    <p class="text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                        Throughout my racing career, I've not been afraid to stand up and share my thrills and spills, which I do with a great deal of passion on the speaker’s circuit. I bring energy and professionalism to after-dinner talks, award ceremonies, and motivational events.
+                    </p>
+                </div>
+                <div class="mt-12">
+                    <h3 class="text-center text-gray-500 font-semibold uppercase tracking-widest mb-8">Trusted By</h3>
+                    <div class="flex justify-center items-center flex-wrap gap-x-8 gap-y-4 md:gap-x-16 text-gray-500">
+                        <span class="font-medium">Chase JPMorgan</span>
+                        <span class="font-medium">Royal Southern Yacht Club</span>
+                        <span class="font-medium">Yorkshire Police Force</span>
+                        <span class="font-medium">Trinity House</span>
+                    </div>
+                </div>
+                 <div class="text-center mt-12">
+                    <a href="contact.html" class="inline-block bg-brand-teal text-white px-8 py-3 rounded-full font-semibold hover:bg-brand-teal-dark transition-all transform hover:scale-105">
+                        Book Shelley for Your Event
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <p class="text-sm text-gray-400 mb-4 md:mb-0">&copy; 2025 Shelley Jory-Leigh. All Rights Reserved.</p>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-youtube fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile Menu
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        });
+    </script>
+</body>
+</html>
