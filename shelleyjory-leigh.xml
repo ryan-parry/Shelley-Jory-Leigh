@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is a WordPress eXtended RSS file generated for Shelley Jory-Leigh's website. -->
+<!-- It contains content of the site and can be imported into a WordPress installation. -->
+
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Shelley Jory-Leigh</title>
+	<link>https://shelleyjory.com</link>
+	<description>Official website of Shelley Jory-Leigh</description>
+	<pubDate>Sun, 07 Jul 2024 14:00:00 +0000</pubDate>
+	<language>en-GB</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://shelleyjory.com</wp:base_site_url>
+	<wp:base_blog_url>https://shelleyjory.com</wp:base_blog_url>
+
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@example.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+
+	<!-- Homepage -->
+	<item>
+		<title>Home</title>
+		<link>https://shelleyjory.com/</link>
+		<pubDate>Sun, 07 Jul 2024 14:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main>
+                <!-- 1. Full-Screen Slideshow -->
+                <section class="slider-container">
+                    <div class="slider-track">
+                        <div class="slide" style="background-image: url('https://placehold.co/1920x1080/1a202c/ffffff?text=Powerboat+Action');">
+                            <div class="slide-overlay"></div>
+                            <div class="slide-content">
+                                <h2 class="text-4xl md:text-6xl font-black uppercase text-shadow-strong">Lady Racer</h2>
+                                <p class="mt-4 text-lg md:text-xl font-light text-shadow-strong">Experience the adrenaline of a world champion.</p>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url('https://placehold.co/1920x1080/4a5568/ffffff?text=Corporate+Headshot');">
+                            <div class="slide-overlay"></div>
+                            <div class="slide-content">
+                                <h2 class="text-4xl md:text-6xl font-black uppercase text-shadow-strong">Business Woman</h2>
+                                <p class="mt-4 text-lg md:text-xl font-light text-shadow-strong">Driving success on and off the water.</p>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url('https://placehold.co/1920x1080/2c5282/ffffff?text=Presenting+on+Stage');">
+                            <div class="slide-overlay"></div>
+                            <div class="slide-content">
+                                <h2 class="text-4xl md:text-6xl font-black uppercase text-shadow-strong">Presenter</h2>
+                                <p class="mt-4 text-lg md:text-xl font-light text-shadow-strong">Engaging audiences with stories of victory.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. Bold Headline Statement -->
+                <section class="bg-white py-12 md:py-16">
+                    <div class="container mx-auto px-6 text-center">
+                        <p class="text-xl md:text-2xl font-light text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                            British Powerboat Champion, World Record holder and promoter in her sport. Businesswomen, BBC and Sky Sports presenter, motivational speaker and proud YB of Trinity House.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- 3. 3-Way Persona Selector -->
+                <section class="split-container-section">
+                    <a href="/racer/" class="split-pane group" style="background-image: url('https://placehold.co/800x600/15B6B8/FFFFFF?text=Racer');">
+                        <div class="pane-content">
+                            <h2 class="text-3xl font-black uppercase text-shadow-strong">Lady Racer</h2>
+                            <span class="pane-button">Discover</span>
+                        </div>
+                    </a>
+                    <a href="/business/" class="split-pane group" style="background-image: url('https://placehold.co/800x600/333333/FFFFFF?text=Business');">
+                        <div class="pane-content">
+                            <h2 class="text-3xl font-black uppercase text-shadow-strong">Business Woman</h2>
+                            <span class="pane-button">Discover</span>
+                        </div>
+                    </a>
+                    <a href="/presenter/" class="split-pane group" style="background-image: url('https://placehold.co/800x600/555555/FFFFFF?text=Presenter');">
+                        <div class="pane-content">
+                            <h2 class="text-3xl font-black uppercase text-shadow-strong">Presenter</h2>
+                            <span class="pane-button">Discover</span>
+                        </div>
+                    </a>
+                </section>
+
+                <!-- 4. Sponsors Break Link -->
+                <section class="bg-gray-200 py-12">
+                    <div class="container mx-auto px-6">
+                        <h3 class="text-center text-gray-500 font-semibold uppercase tracking-widest mb-8">Proudly Supported By</h3>
+                        <div class="flex justify-center items-center flex-wrap gap-8 md:gap-16">
+                            <a href="#" class="transition-transform transform hover:scale-110"><img src="https://placehold.co/200x80/ffffff/cccccc?text=Sponsor+1" alt="Sponsor 1 Logo" class="h-12 md:h-16"></a>
+                            <a href="#" class="transition-transform transform hover:scale-110"><img src="https://placehold.co/200x80/ffffff/cccccc?text=Sponsor+2" alt="Sponsor 2 Logo" class="h-12 md:h-16"></a>
+                            <a href="#" class="transition-transform transform hover:scale-110"><img src="https://placehold.co/200x80/ffffff/cccccc?text=Sponsor+3" alt="Sponsor 3 Logo" class="h-12 md:h-16"></a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:01:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:01:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:01:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:01:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[front-page.php]]></wp:meta_value>
+	</item>
+	
+	<!-- Gallery Page -->
+	<item>
+		<title>Gallery</title>
+		<link>https://shelleyjory.com/gallery/</link>
+		<pubDate>Sun, 07 Jul 2024 14:02:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main class="container mx-auto px-6 py-12">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">Gallery</h1>
+                    <p class="text-gray-600 mt-2">A look into my life on and off the water.</p>
+                </div>
+
+                <!-- Video Gallery Section -->
+                <section id="video-gallery" class="mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Video Highlights</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="video-container rounded-lg shadow-lg overflow-hidden">
+                            <iframe src="https://www.youtube.com/embed/ENFzVvs5djE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container rounded-lg shadow-lg overflow-hidden">
+                            <iframe src="https://www.youtube.com/embed/QA4au9KMKc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container rounded-lg shadow-lg overflow-hidden">
+                            <iframe src="https://www.youtube.com/embed/XFOt-ijA0CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container rounded-lg shadow-lg overflow-hidden">
+                            <iframe src="https://www.youtube.com/embed/1F_Vpc3cj8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Divider -->
+                <div class="border-b-2 border-gray-200 my-16"></div>
+
+                <!-- Photo Gallery Section -->
+                <section id="photo-gallery">
+                    <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">The World of Shelley</h2>
+                    
+                    <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+                        <div class="gallery-item group overflow-hidden rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x600/15B6B8/FFFFFF?text=Racer+1" alt="Racing photo 1" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                        </div>
+                        <div class="gallery-item group overflow-hidden rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x600/333333/FFFFFF?text=Business+1" alt="Business photo 1" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                        </div>
+                        <div class="gallery-item group overflow-hidden rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x600/555555/FFFFFF?text=Presenter+1" alt="Presenter photo 1" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                        </div>
+                        <div class="gallery-item group overflow-hidden rounded-lg shadow-lg">
+                            <img src="https://placehold.co/600x600/15B6B8/FFFFFF?text=Racer+2" alt="Racing photo 2" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 cursor-pointer">
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+            <!-- Lightbox -->
+            <div id="lightbox">
+                <button id="lightbox-close">&times;</button>
+                <button id="lightbox-prev" class="lightbox-nav">&#10094;</button>
+                <img id="lightbox-img" src="">
+                <button id="lightbox-next" class="lightbox-nav">&#10095;</button>
+            </div>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:02:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:02:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:02:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:02:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+	<!-- Achievements Page -->
+	<item>
+		<title>Achievements &amp; Awards</title>
+		<link>https://shelleyjory.com/achievements/</link>
+		<pubDate>Sun, 07 Jul 2024 14:03:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=3</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main class="container mx-auto px-6 py-12">
+                <div class="text-center mb-16">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">Achievements & Awards</h1>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">A journey of dedication, speed, and breaking boundaries in the world of powerboat racing and beyond.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 lg:gap-16">
+                    <div class="md:w-1/3 lg:w-1/4">
+                        <div class="timeline-year">
+                            <h2 id="sticky-year" class="text-5xl lg:text-7xl font-black text-gray-200 transition-all duration-300">1996</h2>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 lg:w-3/4 space-y-16">
+                        <section class="timeline-item" data-year="1996">
+                            <h3 class="text-3xl font-bold text-gray-800 mb-4">Awards 1996-2004</h3>
+                            <ul class="list-disc list-inside space-y-3 text-gray-700">
+                                <li><strong class="font-semibold text-gray-900">1996:</strong> UKOBA Award of Merit Trophy.</li>
+                                <li><strong class="font-semibold text-gray-900">1997:</strong> UKOBA Novice Navigator of the Year Award & UKOBA Invincible Shield.</li>
+                            </ul>
+                        </section>
+                        <section class="timeline-item" data-year="2005">
+                            <h3 class="text-3xl font-bold text-gray-800 mb-4">Results 2005-2017</h3>
+                            <ul class="list-disc list-inside space-y-3 text-gray-700">
+                                <li><strong class="font-semibold text-gray-900">2005:</strong> British Honda Champion.</li>
+                                <li><strong class="font-semibold text-gray-900">2014:</strong> Broke National Speed Record at 114mph.</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:03:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:03:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:03:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:03:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[achievements]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+	<!-- Charities Page -->
+	<item>
+		<title>Charities</title>
+		<link>https://shelleyjory.com/charities/</link>
+		<pubDate>Sun, 07 Jul 2024 14:04:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main class="container mx-auto px-6 py-12">
+                <div class="text-center mb-16">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">Charity Work</h1>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">Giving back is a huge part of my life. I'm proud to support incredible organisations making a real difference.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <a href="#" class="charity-card group block rounded-lg shadow-lg overflow-hidden bg-white transform transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl">
+                        <div class="h-48 bg-gray-50 flex items-center justify-center p-4">
+                            <img src="https://placehold.co/200x100/E85D23/FFFFFF?text=RNLI" alt="RNLI Logo" class="max-h-24 object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-brand-teal transition-colors">RNLI</h3>
+                            <p class="text-gray-600 leading-relaxed">As an ambassador for the Royal National Lifeboat Institution, I am honoured to support the volunteer lifeboat crews.</p>
+                        </div>
+                    </a>
+                    <a href="#" class="charity-card group block rounded-lg shadow-lg overflow-hidden bg-white transform transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl">
+                        <div class="h-48 bg-gray-50 flex items-center justify-center p-4">
+                            <img src="image_41ada5.png" alt="Mountbatten Hampshire Logo" class="max-h-24 object-contain">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2 group-hover:text-brand-teal transition-colors">Countess Mountbatten</h3>
+                            <p class="text-gray-600 leading-relaxed">As an ambassador for Countess Mountbatten Hospice, I support their incredible work in providing palliative care.</p>
+                        </div>
+                    </a>
+                </div>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:04:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:04:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:04:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:04:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[charities]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+	<!-- Contact Page -->
+	<item>
+		<title>Contact Us</title>
+		<link>https://shelleyjory.com/contact/</link>
+		<pubDate>Sun, 07 Jul 2024 14:05:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=5</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main class="container mx-auto px-6 py-12 md:py-20">
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">Get In Touch</h1>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">Have a question, a media inquiry, or a speaking opportunity? I'd love to hear from you.</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-8 md:p-12">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-6">Send a Message</h2>
+                            <!-- This form would be replaced by a WordPress plugin shortcode -->
+                            <p>[contact-form-7 id="123" title="Contact form 1"]</p>
+                        </div>
+                        <div class="bg-gray-50 p-8 md:p-12 flex flex-col justify-between">
+                            <div>
+                                <h2 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h2>
+                                <p class="flex items-start"><i class="fas fa-envelope fa-fw mt-1 mr-3 text-brand-teal"></i><a href="mailto:Shelley@shelleyjory.com" class="hover:text-brand-teal">Shelley@shelleyjory.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:05:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:05:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:05:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:05:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+	<!-- Racer Page -->
+	<item>
+		<title>Lady Racer</title>
+		<link>https://shelleyjory.com/racer/</link>
+		<pubDate>Sun, 07 Jul 2024 14:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main>
+                <section class="hero-section relative flex items-center justify-center text-white" style="background-image: url('https://placehold.co/1920x1080/1a202c/ffffff?text=High-Speed+Racing+Action');">
+                    <div class="hero-overlay absolute inset-0"></div>
+                    <div class="relative z-10 text-center p-4">
+                        <h1 class="text-5xl md:text-7xl font-black uppercase text-shadow-strong">Lady Racer</h1>
+                        <p class="mt-4 text-xl md:text-2xl font-light text-shadow-strong">Life in the fast lane.</p>
+                    </div>
+                </section>
+                <section class="bg-white py-16 md:py-20">
+                    <div class="container mx-auto px-6">
+                        <div class="max-w-4xl mx-auto">
+                            <blockquote class="border-l-4 border-brand-teal pl-6 mb-12">
+                                <p class="text-xl md:text-2xl font-light text-gray-700 leading-relaxed">British Powerboat Champion, World Record holder and promoter in her sport...</p>
+                            </blockquote>
+                            <div class="text-gray-600 leading-relaxed space-y-4">
+                                <p>Shelley has been racing Powerboats for over 20 years now...</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:06:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:06:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:06:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:06:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[racer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+	<!-- Business Woman Page -->
+	<item>
+		<title>Business Woman</title>
+		<link>https://shelleyjory.com/business/</link>
+		<pubDate>Sun, 07 Jul 2024 14:07:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main>
+                <section class="hero-section relative flex items-center justify-center text-white" style="background-image: url('https://placehold.co/1920x1080/4a5568/ffffff?text=Professional+Corporate+Setting');">
+                    <div class="hero-overlay absolute inset-0"></div>
+                    <div class="relative z-10 text-center p-4">
+                        <h1 class="text-5xl md:text-7xl font-black uppercase text-shadow-strong">Business Woman</h1>
+                        <p class="mt-4 text-xl md:text-2xl font-light text-shadow-strong">Driving Success Beyond the Finish Line.</p>
+                    </div>
+                </section>
+                <section class="bg-white py-16 md:py-20">
+                     <div class="container mx-auto px-6">
+                        <div class="grid md:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Brides of Southampton: A Legacy</h2>
+                                <p>Powerboat Champion Shelley Jory-Leigh has notched up another success - this time in her day job...</p>
+                            </div>
+                            <div>
+                                <img src="https://placehold.co/800x600/FFFFFF/CCCCCC?text=Brides+of+Southampton" alt="Brides of Southampton" class="rounded-lg shadow-xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:07:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:07:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:07:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:07:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[business]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+	<!-- Presenter Page -->
+	<item>
+		<title>The Presenter</title>
+		<link>https://shelleyjory.com/presenter/</link>
+		<pubDate>Sun, 07 Jul 2024 14:08:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://shelleyjory.com/?page_id=8</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+            <!-- wp:html -->
+            <main>
+                <section class="hero-section relative flex items-center justify-center text-white" style="background-image: url('https://placehold.co/1920x1080/2c5282/ffffff?text=Shelley+Presenting');">
+                    <div class="hero-overlay absolute inset-0"></div>
+                    <div class="relative z-10 text-center p-4">
+                        <h1 class="text-5xl md:text-7xl font-black uppercase text-shadow-strong">The Presenter</h1>
+                        <p class="mt-4 text-xl md:text-2xl font-light text-shadow-strong">Engaging Audiences, On Screen and On Stage.</p>
+                    </div>
+                </section>
+                <section class="bg-white py-16 md:py-20">
+                    <div class="container mx-auto px-6">
+                        <div class="grid md:grid-cols-5 gap-12 items-center">
+                            <div class="md:col-span-3">
+                                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">From Cockpit to Camera</h2>
+                                <p>After the serious powerboat racing accident in 2010... I could now support my sport on another dimension.</p>
+                            </div>
+                            <div class="md:col-span-2">
+                                <img src="https://placehold.co/600x700/555555/FFFFFF?text=Shelley+with+Microphone" alt="Shelley Jory-Leigh Presenting" class="rounded-lg shadow-xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- /wp:html -->
+        ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date><![CDATA[2024-07-07 14:08:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-07-07 13:08:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 14:08:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 13:08:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[presenter]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+	</item>
+
+</channel>
+</rss>
