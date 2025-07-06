@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Woman | Shelley Jory-Leigh</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f5; /* A light gray background for the page */
+        }
+        /* Custom color classes for Shelley's brand teal */
+        .bg-brand-teal { background-color: #15B6B8; }
+        .hover\:bg-brand-teal-dark:hover { background-color: #119395; }
+        .text-brand-teal { color: #15B6B8; }
+        .hover\:text-brand-teal:hover { color: #15B6B8; }
+        .border-brand-teal { border-color: #15B6B8; }
+
+        .hero-section {
+            height: 60vh;
+            background-image: url('https://placehold.co/1920x1080/4a5568/ffffff?text=Professional+Corporate+Setting');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
+        }
+        .hero-overlay {
+            background-color: rgba(0,0,0,0.5);
+        }
+        .text-shadow-strong { text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header id="main-header" class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-800">Shelley Jory-Leigh</a>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Home</a>
+                <a href="gallery.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Gallery</a>
+                <a href="achievements.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Achievements</a>
+                <a href="charities.html" class="text-gray-600 hover:text-brand-teal transition-colors font-medium">Charities</a>
+                <a href="contact.html" class="bg-brand-teal text-white px-5 py-2 rounded-full font-semibold hover:bg-brand-teal-dark transition-all transform hover:scale-105">Contact Us</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white p-4">
+            <a href="index.html" class="block py-2 text-gray-600 hover:text-brand-teal">Home</a>
+            <a href="gallery.html" class="block py-2 text-gray-600 hover:text-brand-teal">Gallery</a>
+            <a href="achievements.html" class="block py-2 text-gray-600 hover:text-brand-teal">Achievements</a>
+            <a href="charities.html" class="block py-2 text-gray-600 hover:text-brand-teal">Charities</a>
+            <a href="contact.html" class="block mt-2 py-2 text-center text-white bg-brand-teal rounded-full">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section relative flex items-center justify-center text-white">
+            <div class="hero-overlay absolute inset-0"></div>
+            <div class="relative z-10 text-center p-4">
+                <h1 class="text-5xl md:text-7xl font-black uppercase text-shadow-strong">Business Woman</h1>
+                <p class="mt-4 text-xl md:text-2xl font-light text-shadow-strong">Driving Success Beyond the Finish Line.</p>
+            </div>
+        </section>
+
+        <!-- Intro Content Section -->
+        <section class="bg-white py-16 md:py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-5 gap-12 items-center">
+                    <div class="md:col-span-3">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">From Racetrack to Boardroom</h2>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            The same focus, determination, and strategic thinking that fuels my racing career are the cornerstones of my success in business. As an experienced MD for a multi-million pound marine company, I understand the dynamics of leadership, team building, and navigating competitive markets.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed">
+                            Beyond my own ventures, I am a passionate business ambassador for world-leading brands, leveraging my unique platform to build powerful connections and drive growth. I believe that the lessons learned at 100mph on the water are directly applicable to achieving success in any industry.
+                        </p>
+                    </div>
+                    <div class="md:col-span-2">
+                        <img src="https://placehold.co/600x700/333333/FFFFFF?text=Professional+Headshot" alt="Shelley Jory-Leigh in a business setting" class="rounded-lg shadow-xl w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bridal Business Section -->
+        <section class="bg-gray-50 py-16 md:py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Brides of Southampton: A Legacy</h2>
+                        <div class="text-gray-600 leading-relaxed space-y-4">
+                            <p>
+                                Powerboat Champion Shelley Jory-Leigh has notched up another success - this time in her day job. Shelley runs the family business, Brides of Southampton, established in 1976, making it the oldest family-owned Bridal shop in the UK. It’s survived three recessions and been around for five royal weddings.
+                            </p>
+                            <p>
+                                The business was started by Shirley Jory who moved to the South with her husband. She put her twenty years of London bridal wear experience to use in her own bridal business in the Portswood area of Southampton.
+                            </p>
+                             <p>
+                                Shirley Jory attributes the success of the business to her long-term experience in the bridal fashion world and the treating of every bride as a “daughter”. Shelley says they have weathered all the economic uncertainties by having excellent, long-serving staff, a careful attitude to expenditure and giving 120% customer service.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="order-1 md:order-2">
+                         <img src="https://placehold.co/800x600/FFFFFF/CCCCCC?text=Brides+of+Southampton" alt="Brides of Southampton" class="rounded-lg shadow-xl w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Motivational Speaker Section -->
+        <section class="bg-white py-16 md:py-20">
+             <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Motivational Speaker & Ambassador</h2>
+                 <p class="text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
+                    Sharing my story of resilience, overcoming adversity, and achieving success in male-dominated environments is one of my greatest passions. As a motivational speaker, I aim to inspire audiences to break their own barriers and pursue their goals with relentless drive. I am also a proud ambassador for world-leading brands, helping to promote excellence and innovation.
+                 </p>
+                 <a href="contact.html" class="inline-block bg-brand-teal text-white px-8 py-3 rounded-full font-semibold hover:bg-brand-teal-dark transition-all transform hover:scale-105">
+                    Book Shelley for an Event
+                </a>
+             </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <p class="text-sm text-gray-400 mb-4 md:mb-0">&copy; 2025 Shelley Jory-Leigh. All Rights Reserved.</p>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-gray-400 hover:text-brand-teal transition-colors"><i class="fab fa-youtube fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile Menu
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        });
+    </script>
+</body>
+</html>
